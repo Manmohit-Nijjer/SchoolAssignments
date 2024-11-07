@@ -1,1 +1,0 @@
-zip file of Project 3 of Operating Systems - Dealt with handling xv6-public and transformed it into code that could handle stacks and heaps simoutansiouly - implemented new test file for make-qemu , stacktester.c
