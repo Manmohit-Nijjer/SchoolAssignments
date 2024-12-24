@@ -1,3 +1,7 @@
+// Using tutorial videos, lessions and other material we were tasked with assembling a basic Todo App in react-native to showcase and teach 
+// ourselves how to use the program and its tools. Some notible changes from standard implementations is the usage of a image picker, an 
+// additional page where we may store details, a unique color scheme and more. 
+
 import React, { useState, useEffect } from 'react';
 import {
   StyleSheet,
