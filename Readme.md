@@ -1,1 +1,1 @@
-Assignments - code done for classes done at hofstra university 
+Assignments, including details of tasks given by faculty at Hofstra University. 
