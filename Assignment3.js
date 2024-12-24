@@ -1,3 +1,5 @@
+// This Assignment's purpose was to allow us to insert data into tables in orient with it properly working. 
+
 const OrientDBClient = require('orientjs').OrientDBClient;
 
 async function connect() {
@@ -7,9 +9,9 @@ async function connect() {
   });
 
   const session = await client.session({
-    name: 'online__store',
-    username: 'root',
-    password: 'your_password'
+    name: '',
+    username: '',
+    password: ''
   });
 
   return session;
