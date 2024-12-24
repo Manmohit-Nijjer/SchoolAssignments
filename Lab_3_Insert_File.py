@@ -1,3 +1,5 @@
+# Code done for my Mobile Web Class where we took the APPL.csv file within the repository and added was able to add the data into tables in postgres. 
+
 import psycopg2
 import csv
 
@@ -29,7 +31,7 @@ def upload_csv_to_db(csv_file, conn):
         conn.commit()
 
 def main():
-    conn = psycopg2.connect("dbname=postgres user=postgres password=2004")
+    conn = psycopg2.connect("dbname= user= password=")
     
     # Upload CSV data to the database
     upload_csv_to_db('APPL.csv', conn)
