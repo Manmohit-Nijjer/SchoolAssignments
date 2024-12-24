@@ -1,3 +1,5 @@
+// this is the same as Assignment_4.py but instead this code is targeted for orient db, make sure if you using this that you create the nessasary tables and link your information when using this. 
+
 import OrientDB from "orientjs";
 import { faker } from "@faker-js/faker";
 import random from "random";
@@ -18,9 +20,9 @@ async function connectToServer() {
 async function createSession(server) {
     try {
         return await server.session({
-            name: "store",
-            username: "root",
-            password: "2004"
+            name: "",
+            username: "",
+            password: ""
         });
     } catch (error) {
         console.error('Failed to create session:', error);
