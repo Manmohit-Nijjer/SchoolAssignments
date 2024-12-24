@@ -1,3 +1,6 @@
+// This is a continuation of Assignment 4 with a unique twist alongside using the order bot we are tasked to use a report bot that triggers every second, to print total sales of an item and its accured revenue. 
+// Was a bit challenging as orientdb's query is unique and at times a bit brutal as you need to structure it a certain way, once figured out task was straigtforward
+
 import OrientDB from "orientjs";
 import { faker } from "@faker-js/faker";
 import random from "random";
@@ -19,9 +22,9 @@ async function connectToServer() {
 async function createSession(server) {
     try {
         const session = await server.session({
-            name: "store",
-            username: "root",
-            password: "2004"
+            name: "",
+            username: "",
+            password: ""
         });
         console.log('Session created');
         return session;
