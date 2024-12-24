@@ -1,3 +1,5 @@
+# Goal of this assignment is to allow us to create a bot that generates a random order, that will continue to create random orders until the user inputs a key. 
+
 import psycopg2
 from faker import Faker # <- searched up "ways to create a bot, and faker library poped up" my knowledge on this is that it generates fake data allowing to test in real life examples for the testing enviorment
 import random # <- need it for random int generation for the randomness of the bots 
@@ -27,7 +29,7 @@ def create_random_order(cursor):
         cursor.execute("""INSERT INTO "assignment 3".orderitems (orderid, productid, quantity, price) VALUES (%s, %s, %s, %s)""", (order_id, product_id, quantity, price))
 
 def main():
-    conn = psycopg2.connect(dbname="postgres", user="postgres", password="2004", host="localhost", port="5432") # <- connection to the server / used the previous assignment for this code
+    conn = psycopg2.connect(dbname="", user="", password="", host="", port="") # <- connection to the server / used the previous assignment for this code
 
     cursor = conn.cursor()
 
