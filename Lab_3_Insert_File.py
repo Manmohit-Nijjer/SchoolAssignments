@@ -1,4 +1,4 @@
-# Code done for my Mobile Web Class where we took the APPL.csv file within the repository and added was able to add the data into tables in postgres. 
+# Code done for my Mobile Web Class where we took the APPL.csv file within the repository and added was able to add the data into tables in postgres 
 
 import psycopg2
 import csv
