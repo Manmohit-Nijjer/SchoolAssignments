@@ -1,3 +1,6 @@
+# This Assignment was where we learned key skills in running querys in postgres and using those querys we are able to generate info. 
+# In the context of this assignment this query is to generate a gpa grade result depending on students in postgres and their grades 
+
 import psycopg2
 
 def calculate_gpa(grades):
@@ -17,7 +20,7 @@ def calculate_gpa(grades):
     return total_points / len(grades)
 
 def main():
-    with psycopg2.connect("dbname=postgres user=postgres password=2004") as conn:
+    with psycopg2.connect("dbname= user= password=") as conn:
         with conn.cursor() as cur:
             # Query to get student names and IDs
             cur.execute("""
