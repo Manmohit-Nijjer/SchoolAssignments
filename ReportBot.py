@@ -1,3 +1,6 @@
+# This like the other report bot is a continuation of Assignment 4 with the unique additon of a report bot that prints out the total sales and items of a product. 
+# It has little notes throughout to understand each use case of the commands, but in summary this uses same prinicple as Assignment 4 with the additon of a time and threading variable to simulate the every second output desired. 
+
 import psycopg2
 from faker import Faker
 import random
@@ -9,9 +12,9 @@ not_real = Faker()
 # Database connection
 def get_db_connection():
     conn = psycopg2.connect(
-        dbname='postgres',
-        user='postgres',
-        password='2004',
+        dbname='',
+        user='',
+        password='',
         host='localhost',
         port='5432'
     )
